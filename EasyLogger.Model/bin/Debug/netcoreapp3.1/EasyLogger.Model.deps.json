@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "EasyLogger.Model/1.0.0": {
+        "dependencies": {
+          "EasyLogger.DbStorage": "1.0.0"
+        },
+        "runtime": {
+          "EasyLogger.Model.dll": {}
+        }
+      },
+      "EasyLogger.DbStorage/1.0.0": {
+        "runtime": {
+          "EasyLogger.DbStorage.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EasyLogger.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EasyLogger.DbStorage/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
